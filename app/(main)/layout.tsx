@@ -41,7 +41,7 @@ export default function MainLayout({ children }: { children: JSX.Element }) {
                     <Session />
                 </div>
             </div>
-            <section className="col-start-2 col-span-5 bg-[var(--color-body-bg)] h-[100vh]">
+            <section className="col-start-2 col-span-5 bg-[var(--color-body-bg)] h-[100vh] p-15">
                 {children}
             </section>
         </div>
