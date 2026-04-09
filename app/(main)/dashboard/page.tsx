@@ -1,5 +1,6 @@
 import useSession from "@/hooks/useSession"
 import Cards from "./Cards";
+import { DashboardTabs } from "./Tabs";
 
 export default function Dashboard() {
     const { getUserData } = useSession();
@@ -9,9 +10,7 @@ export default function Dashboard() {
             <h1>Dashboard</h1>
             <span>¡Bienvenido de vuelta {name}!</span>
             <Cards />
-            <div>
-                tabs
-            </div>
+            <DashboardTabs />
         </div>
     )
 }
